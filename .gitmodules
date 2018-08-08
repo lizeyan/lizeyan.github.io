@@ -1,0 +1,3 @@
+[submodule "Tomasolu-emulator"]
+	path = Tomasolu-emulator
+	url = git@github.com:lizeyan/Tomasolu-emulator.git

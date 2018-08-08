@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Key</title>
+</head>
+<body>
+<div>
+    <form>
+        <input type="checkbox" onchange="resample(true)" checked id="lowercase"><label>lower case</label>
+        <input type="checkbox" onchange="resample(true)" checked id="uppercase"><label>UPPER CASE</label>
+        <input type="checkbox" onchange="resample(true)" checked id="numbers"><label>Number</label>
+        <input type="checkbox" onchange="resample(true)" checked id="c1"><label>~`!@#$%^&*()_+-=|{}[];:,.<>?</label>
+        <input type="checkbox" onchange="resample(true)" id="c2"><label>"'\/</label>
+        <input type="button" onclick="resample(false)" value="more">
+    </form>
+</div>
+<div id="random-key"></div>
+</body>
+<script src="index.js"></script>
+</html>
